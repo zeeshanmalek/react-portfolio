@@ -27,11 +27,11 @@
     margin-top: 50px;
     margin: 10px;
     padding-top: 30px;
-    align-items: end;
+    align-items: flex-end;
 }
 .container-line{
     width: 5px;
-    height: 100%;
+    height: 130%;
     background-color: #fec86a;
 }
 .title{
@@ -72,5 +72,5 @@
     top: 350px;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
 }
