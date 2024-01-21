@@ -1,24 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route,Routes, Link, BrowserRouter} from 'react-router-dom';
+import Education from './Components/Education';
+import Home from './Components/home';
+import Skill from './Components/skill';
+import About from './Components/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <BrowserRouter>
+   <div className='nav-parant'>
+   <nav>
+    
+        <div className='nav-logo'>
+           <Link to='/'> Jisanahmad's Portfolio </Link>
+        </div>
+        <div className='nav-links'>
+            <Link to='/'>Home</Link>
+            <Link to='/skills'>Skills</Link>
+            <Link  to='/education'>Education</Link>
+            <Link to='/About'>About</Link>
+        </div>
+        
+      </nav>
+      
+      
+   </div>
+   
+      
+      <Routes>
+        <Route path='/' Component={Home}></Route>
+        <Route path='/skills' Component={Skill}></Route>
+        <Route path='/education' Component={Education}></Route>
+        <Route path='/about' Component={About}></Route>
+      </Routes>
+      
+     <footer>
+     <div className='line' style={{zIndex: 1}}></div>
+      <div>
+      &copy; Created By <a href='jisan'>Jisanahmad Malek</a>
+      </div>
+     </footer>
+     </BrowserRouter>
+   </>
   );
 }
 

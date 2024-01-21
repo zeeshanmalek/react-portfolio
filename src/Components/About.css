@@ -1,0 +1,35 @@
+.about{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    
+}
+.image-part{
+  width: 45%;
+}
+.content-part{
+    color: white;
+    font-size: 35px;
+    width: 45%;
+    font-weight: 500;
+}
+.content-part h1{
+    color: #fec86a;
+
+}
+.shape{
+    position: absolute;
+    right: 100px;
+    background-color: rgba(107, 104, 104, 0.836);
+    height: 35rem;
+    width: 35rem;
+    border-radius: 18% 82% 31% 69% / 65% 31% 69% 35% ;
+}
+.image-part img{
+    position: relative;
+    left: 250px;
+    background: transparent;
+}

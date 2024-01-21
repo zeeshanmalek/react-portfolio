@@ -1,0 +1,65 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    padding-top: 90px;
+}
+
+.home{
+    display: flex;
+    width: 90%;
+    
+    height: 83vh;
+    
+}
+.content{
+  
+    padding-left: 180px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 60%;
+    height: 100%;
+    font-size: 30px;
+    color:white;
+    
+}
+.content h3 span{
+    font-size: 80px;
+}
+.content h3{
+    font-size: 60px;
+    font-weight: 400;
+    padding: 50px;
+}
+.social-icons{
+    display: flex;
+    margin-top: 10px;
+    width: 500px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.social-icons a{
+    font-size: 50px;
+   padding: 20px;
+    color: White;
+    /* border: 1px solid #fec86a; */
+    border-radius: 10px;
+    
+}
+.social-icons a:hover{
+    transition: all 0.5s;
+    color: #fec86a;
+  
+ border: none;
+  box-shadow: 3px 3px 3px 3px #fec86a;
+ 
+}
+.line{
+    margin-top: 10px;
+    width: 100%;
+    height: 2.5px;
+    background:  #fec86a;
+}
