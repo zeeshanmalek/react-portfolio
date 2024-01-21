@@ -30,10 +30,9 @@ const home = () => {
           <a href='https://github.com/zeeshanmalek'><FontAwesomeIcon icon={faGithub} /></a>
           <a href='www.linkedin.com/in/jisanahmad-malek'><FontAwesomeIcon icon={faLinkedin} /></a>
           <a href='https://www.instagram.com/zeeshan.malekk?igsh=MTd4eDlmOGQ2bzlncg=='><FontAwesomeIcon icon={faInstagram} /></a>
-        
           <a href='https://wa.link/s4z0rl'><FontAwesomeIcon icon={faWhatsapp} /></a>
-
-        </div>
+          </div>
+        
        
         </h3>
        

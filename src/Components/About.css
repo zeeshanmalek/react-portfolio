@@ -8,11 +8,12 @@
     
 }
 .image-part{
-  width: 45%;
+  width: 50%;
+  overflow: hidden;
 }
 .content-part{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     width: 45%;
     font-weight: 500;
 }
@@ -23,13 +24,15 @@
 .shape{
     position: absolute;
     right: 100px;
+    top: 7rem;
     background-color: rgba(107, 104, 104, 0.836);
-    height: 35rem;
-    width: 35rem;
+    height: 30rem;
+    width: 30rem;
     border-radius: 18% 82% 31% 69% / 65% 31% 69% 35% ;
 }
 .image-part img{
     position: relative;
-    left: 250px;
+    left: 10.5rem;
+    top: 1.5rem;
     background: transparent;
 }

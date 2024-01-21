@@ -3,9 +3,9 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    overflow: auto;
+    overflow:inherit;
     width: 100%;
-    height: 78vh;
+    height: 80vh;
    
 }
 .headings{
